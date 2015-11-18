@@ -1,0 +1,1 @@
+<!DOCTYPE html><!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--> <html class="no-js invisible "> <!--<![endif]--><?php  include_once 'head.php'; ?><body>	<?php include_once 'header.php'; ?>	<?php echo $content;?>	<?php include_once 'footer.php'; ?></body></html>

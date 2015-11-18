@@ -1,0 +1,7 @@
+/protected/config/config_host/host.php
+tests/_output/*
+codecept.phar
+upload.bat
+vendor.bat
+# composer vendor dir
+/vendor

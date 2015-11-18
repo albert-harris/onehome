@@ -1,0 +1,12 @@
+/*ANH DUNG Jul 15, 2014*/
+ .filters input, .filters select {width: auto !important; border: 1px solid #ddd;padding: 3px;}
+.grid-view .filters { text-align:center;}
+.ad_w1, .ad_w1 input, .ad_w1 select { width: 100px !important;}
+.ad_w2 input, .ad_w2 select { width: 120px !important;}
+.ad_w3 input, .ad_w3 select { width: 130px !important;}
+.ad_w4 input, .ad_w4 select { width: 140px !important;}    
+.ad_w5 input, .ad_w5 select { width: 150px !important;}
+.ad_w350 input, .ad_w350 select { width: 350px !important;}
+
+
+/*.ad_datepicker input { margin-right: 10px;}*/    

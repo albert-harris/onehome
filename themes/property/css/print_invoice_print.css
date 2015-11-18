@@ -1,0 +1,56 @@
+#container { font-family: Arial, Helvetica, sans-serif; margin: 0 auto; width: 800px; }
+#container table { width: 100%; }
+#container table td { vertical-align: top; font-size: 11px;}
+.fsize_11 { font-size: 12px; }
+#container table .col-1 { width: 150px; }
+#container table .col-2 { width: 100px; }
+#container table .col-3 { width: 200px; }
+#container table .col-4 { width: 600px; }
+#container .info-company { font-size: 11px; text-align: right; }
+#container .info-company h4 { font-size: 12px; margin: 0; }
+#container .info-company p { margin: 0; }
+#container .info-company address { margin-bottom: 5px; }
+#container h1 { font-size: 22px; margin: 0px 0; text-align: center; text-transform: uppercase; }
+.contact-no { margin: 20px 0; }
+.report { border-collapse: collapse; }
+.report th, .report td { border: #ccc solid 1px; padding: 10px; }
+.report tfoot td { border: none; padding: 5px 10px; text-align: right; }
+.report .ref td { padding: 20px 10px; text-align: left; }
+.report .price td { border-top: #000 solid 1px; font-weight: bold; padding: 20px 10px; }
+.sign { margin: 20px 0; }
+.sign td { padding: 10px; text-align: center; }
+.sign .line { border-top: #ccc solid 1px; }
+
+.invoice-tb { border: #ccc solid 2px; margin: 20px 0; }
+.invoice-tb tfoot td { border-top: #ccc solid 2px; }
+.invoice-tb tfoot td p { margin: 5px 0; }
+.invoice-tb td { padding: 5px 20px; }
+
+.line-1 { border-top: #000 solid 2px; margin: 20px 0; padding-top: 10px; }
+.line-2 { border-bottom: #000 solid 1px; display: inline-block; width: 100px; }
+.line-3 { font-size: 12px; border-top: #000 solid 1px; font-weight: bold; margin: 0px 0 10px; padding-top: 10px; text-align: center; }
+
+.space-1 { height: 30px; }
+.w-70 { width: 70px; }
+.w-110 { width: 110px; }
+.w-500 { width: 450px; }
+.padding_0 { padding: 0;}
+.margin_0 { margin: 0;}
+.uppercase { text-transform: uppercase; }
+
+.tb_receipt tbody td { border-top: #ccc solid 1px; border-left: #ccc solid 1px;}
+.tb_receipt thead th { border-left: #ccc solid 1px;}
+.item_l { text-align: left !important;}
+.item_r { text-align: right !important;}
+.item_c { text-align: center !important;}
+.item_b { font-weight: bold !important;}
+.no_border_l { border-left: none !important; }
+.no_border_r { border-right: none  !important; }
+.h4_border { border-bottom:  #000 solid 1px; padding: 10px 0px; }
+
+.item_border_bottom { border-bottom:  #ccc solid 1px; }
+.fsize_10 { font-size: 10px !important;}
+.fsize_12 { font-size: 12px !important;}
+.fsize_13 { font-size: 13px !important;}
+.fsize_14 { font-size: 14px !important;}
+.fsize_15 { font-size: 15px !important;}

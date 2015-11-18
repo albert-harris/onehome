@@ -1,0 +1,279 @@
+/* 
+    Document   : verz_custom
+    Created on : Mar 24, 2014, 9:34:30 AM
+    Author     : ghostkissboy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.col-3 .image{
+    width: 137px;
+    float: left;
+}
+  
+ .radius ul li:first-child {
+    margin-left: 0 !important;
+}
+.sven-circle ul li {
+    /*margin-left: 37px !important;*/
+    width: 105px !important;
+}
+.radius ul li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    margin-left: 66px;
+    text-align: center;
+    width: 138px;
+}
+
+.radius ul   {
+    background: url("../img/dot.jpg") repeat-x scroll 0 30px rgba(0, 0, 0, 0);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    list-style: none;
+    padding:0px;
+}
+.radius ul li.active .circle, .radius ul li:hover .circle {
+    border-color: #99CC00;
+    color: #99CC00;
+}
+.radius ul li .circle {
+    border: 2px solid #D0D0D0;
+    border-radius: 60px;
+    display: inline-block;
+    font-size: 15px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    width: 60px;
+}
+.radius ul li a {
+    color: #999999;
+}
+.radius ul li.active a {
+    color: #99CC00;
+}
+.radius ul li.active .txt-circle, .radius ul li:hover .txt-circle {
+    text-decoration: underline;
+}
+.radius ul li:hover a {
+    color: #99CC00;
+}
+.radius ul li .txt-circle {
+    display: block;
+    font-size: 11px;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.errorMessage{color:red;}
+
+/*DTOAN - Listing step 1*/
+.T_form-type {border: none  !important;}
+.T_form-type .lb-1 , .T_form-type-step1 .lb-1 {width: 150px;}
+.T_form-type .lb-1 .required , .T_form-type-step1 .lb-1 .required {color: red;} 
+.T_step_1_custom_btn {padding-left:180px;}
+.T_btn_reset {
+    padding: 0px 7px;text-shadow: 1px 1px 0 #FFD981;margin-left: 10px; background: linear-gradient(to bottom, #FED166 0%, #FED166 50%, #FEB300 51%, #FEB300 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);color: #000000 !important;
+    border-radius: 5px;
+}
+
+.T_custom_Step_2 {width: 100%;}
+.T_row_checkbox_step2 {width:800px !important;margin-left:170px;}
+.T_row_checkbox_step2 .T_checkbox_list_step2 {float:left;width: 190px;}
+.T_photo {min-height: 150px;clear: both;list-style: none;}
+.T_photo li {float:left;width:127px;height: 103;margin:10px 10px 40px 18px;position: relative;}
+.T_photo li .remove-photo {position: absolute;right:0px;}
+.T_photo li .remove-photo:hover {cursor: pointer;}
+.T_photo li .rsTmb {width: 120px;height:96px;}
+ .btn-set-cover {
+     padding:3px;margin-top:10px;
+     background: linear-gradient(to bottom, #FED166 0%, #FED166 50%, #FEB300 51%, #FEB300 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+     color: #000000 !important;border-radius: 5px;
+     text-shadow: 1px 1px 0 #FFD981;      
+ }
+.T_custom_step4_preview {width: 800px;border: none !important;}
+.T_custom_step4_preview ul li {background-image: none !important;}
+.T_custom_step4_preview .list-2 {float:left;width:45%;}
+.T_custom_input_step2 div.uploader span.filename {
+  display: none;
+}
+.T_custom_input_step2 div.uploader span.action {
+    display: block;
+    left: 0;
+    line-height: 13px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100% !important;
+    background:#E6E6E6;
+    border: solid 1px #CCCCCC;
+}
+
+.T_custom_input_step2 {
+    float: left;
+    width: 100px;
+    position: relative;
+}
+.upload_doc {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+
+/** ANH DUNG Mar 28, 2014*/
+.r_padding_5 { padding-right: 5px !important;}
+.r_padding_10 { padding-right: 10px !important;}
+.r_padding_20 { padding-right: 20px !important;}
+.r_padding_30 { padding-right: 30px !important;}
+.r_padding_50 { padding-right: 50px !important;}
+.r_padding_100 { padding-right: 100px !important;}
+.r_padding_160 { padding-right: 160px !important;}
+.l_padding_5 { padding-left: 5px !important;}
+.l_padding_10 { padding-left: 10px !important;}
+.l_padding_20 { padding-left: 20px !important;}
+.l_padding_50 { padding-left: 50px !important;}
+.l_padding_100 { padding-left: 100px !important;}
+.l_padding_140 { padding-left: 140px !important;}
+.margin_0 { margin: 0 !important;}
+.padding_0 { padding: 0 !important;}
+
+.r_margin_20 { margin-right: 20px !important;}
+
+.t_padding_10 { padding-top: 10px !important;}
+.t_padding_20 { padding-top: 20px !important;}
+
+.item_l { text-align: left !important;}
+
+.item_r { text-align: right !important;}
+.item_c { text-align: center !important;}
+.item_b { font-weight: bold !important;}
+.item_sub_10 { padding-left: 10px !important; }
+.item_sub_20 { padding-left: 20px !important; }
+.w-160 {  width: 150px !important; }
+.w-150 {  width: 150px !important; }
+.w-140 {  width: 140px !important; }
+.w-130 {  width: 130px !important; }
+.w-120 {  width: 120px !important; }
+.w-110 {  width: 110px !important; }
+.w-100 {  width: 100px !important; }
+.w-90 {  width: 90px !important; }
+.w-80 {  width: 80px !important; }
+.w-70 {  width: 70px !important; }
+.w-60 {  width: 60px !important; }
+.w-50 {  width: 50px !important; }
+.w-55 {  width: 55px !important; }
+.w-40 {  width: 40px !important; }
+.w-30 {  width: 30px !important; }
+.w-20 {  width: 20px !important; }
+.w-10 {  width: 10px !important; }
+.w-160 {  width: 160px !important; }
+.w-170 {  width: 170px !important; }
+.w-180 {  width: 180px !important; }
+.w-190 {  width: 190px !important; }
+.w-200 {  width: 200px !important; }
+
+.w-220 {  width: 220px !important; }
+.w-250 {  width: 250px !important; }
+.w-280 {  width: 280px; }
+.w-300 {  width: 300px !important; }
+.w-310 {  width: 310px !important; }
+.w-320 {  width: 320px !important; }
+.w-330 {  width: 330px !important; }
+.w-340 {  width: 340px !important; }
+.w-350 {  width: 350px !important; }
+.w-400 {  width: 400px !important; }
+.w-500 {  width: 500px !important; }
+.w-600 {  width: 600px !important; }
+
+.float_l { float: left;}
+.float_r { float: right;}
+.font_normal { font-weight: normal;}
+.no_background { background: none !important;}
+.no_border { border: none !important;}
+
+.form-type ul { padding-left: 0;}
+.ui-datepicker-trigger { padding-left: 5px;}
+.table_scroll { width: 100%; overflow-x: auto;}
+._box_sale_detail .errorMessage { padding-left: 171px;}
+.iframe_form .errorMessage { padding-left: 171px;}
+/*for autocomplete*/
+.grid-view-loading-gas { background: url("../img/loading_v1.gif") no-repeat right top}
+.remove_row_item {background: url(../img/ico-validate-error.png) no-repeat left top; height: 16px; text-indent: -1984em; width: 16px;cursor: pointer;float: left;margin-left: 6px;margin-top: 6px;}
+.remove_icon_only {background: url(../img/ico-validate-error.png) no-repeat left top; height: 16px; text-indent: -1984em; width: 16px;cursor: pointer;display: block; margin: 0 auto;}
+.ui-autocomplete li { text-align:left;}
+.autocomplete_customer_info {  float:left;padding:5px;border:1px solid #CDCDCD;display: none; margin-top: 10px;}
+.autocomplete_customer_info td._l {width: 87px;font-weight: bold;}
+.autocomplete_customer_info td {padding:0; font-size: 12px;}
+/*for autocomplete*/
+/** ANH DUNG Mar 28, 2014*/
+
+#site-map{
+    font-size: 13px;
+}
+
+.search-form .list-check #ProGlobalEnquiry_type_enquiry,.search-form .list-check #ProGlobalEnquiry_furnished,.search-form .list-check #ProGlobalEnquiry_special_features, .search-form .list-check #ProGlobalEnquiry_rent_type{
+    display: inline-block;
+    font-size: 11px;
+    margin-right: 10px;
+    padding-top: 3px;
+    vertical-align: top;
+}
+
+.search-form .list-check #ProGlobalEnquiry_type_enquiry label,.search-form .list-check #ProGlobalEnquiry_furnished label{
+    margin-right: 10px;
+}
+
+.search-form .list-check #ProGlobalEnquiry_special_features label{
+    margin-right: 40px;
+}
+
+label span.required{
+    color: #f00;
+}
+
+.search-form {
+    padding: 0px 10px;
+}
+
+.clear{
+    clear:both;
+}
+
+.intro .col-5 {
+    float: left;
+    width: 140px;
+    padding-bottom: 10px;
+}
+
+.intro .list_box{
+    padding: 10px 0;
+}
+
+/*ANH DUNG*/
+.required_hide {color: red;}
+.gsv1_required .required_hide,
+.gsv2_required .required_hide,
+.gsv3_required .required_hide,
+.gsv4_required .required_hide,
+.gsv5_required .required_hide,
+.gsv6_required .required_hide,
+.gsv7_required .required_hide,
+.gsv8_required .required_hide,
+.gsv9_required .required_hide
+{ display: inline; }
+.ForLandedHouse { padding-top: 5px; display: none; }
+/*ANH DUNG Jun 29, 2014*/
+.my_optgroup optgroup option { margin-left: 15px !important;}
+.ad_nb_recur_1 { margin-left: 0px !important;}
+.ad_nb_recur_2 { margin-left: 15px !important;}
+.ad_nb_recur_3 { margin-left: 25px !important;}
+/*ANH DUNG Jun 29, 2014*/
+/*ANH DUNG Aug 20, 2014*/
+.photo-list { font-size: 0; list-style: none; margin: 0; padding: 10px; }
+.photo-list li { border: #ccc solid 1px; display: inline-block; height: 160px; line-height: 158px; margin: 15px; overflow: hidden; position: relative; text-align: center; vertical-align: top; width: 160px; }
+.photo-list li img { max-width: 100%; }
+.photo-list li .ico-delete { height: 12px; line-height: 1; position: absolute; right: 0; top: 0; width: 12px; }
+/*ANH DUNG Aug 20, 2014*/
